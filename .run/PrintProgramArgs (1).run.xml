@@ -1,0 +1,23 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="PrintProgramArgs (1)" type="Application" factoryName="Application">
+    <envs>
+      <env name="teeeeeeeeeeeeeeeeeeeeeeeeeeeeest" value="vaaaaaaaaaaaaaaaaaaaaaaal" />
+    </envs>
+    <option name="envFilePaths">
+      <option value="$PROJECT_DIR$/vars.env" />
+      <option value="$PROJECT_DIR$/vars2.env" />
+    </option>
+    <option name="MAIN_CLASS_NAME" value="org.example.PrintProgramArgs" />
+    <module name="run_configurations" />
+    <option name="PROGRAM_PARAMETERS" value="$FileDir$/test/test2; $FilePath$;" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="org.example.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

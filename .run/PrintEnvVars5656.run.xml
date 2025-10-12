@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="PrintEnvVars5656" type="Application" factoryName="Application">
+    <envs>
+      <env name="test" value="val" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="org.example.PrintEnvVars" />
+    <module name="run_configurations" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="org.example.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
