@@ -12,8 +12,15 @@ public class PrintEnvVars {
         System.out.println("__" + myEnv);
 System.out.println();
         System.out.println("test var: " + System.getenv("test"));
-        System.out.println("semicolon: " + System.getenv("semicolon"));
+        System.out.println("semicolon: " + System.getenv("SEMICOLON"));
         System.out.println("_______________________________");
+
+        System.out.println("multiline var: " + System.getenv("MULTILINE_KEY"));
+        System.out.println("_______________________________");
+        System.out.println("multiline with n : " + System.getenv("MULTILINE_KEY_WITH_EOL"));
+        System.out.println("_______________________________");
+
+
 
         //get all env vars
         for (String value : env.values()) {
